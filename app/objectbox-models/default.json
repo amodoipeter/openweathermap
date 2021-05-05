@@ -1,0 +1,222 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:8794442658443228569",
+      "lastPropertyId": "9:4053167339745437825",
+      "name": "CurrentWeather",
+      "properties": [
+        {
+          "id": "1:4948419159426116154",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1361137280394346011",
+          "name": "temp",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "3:1768262453614666567",
+          "name": "humidity",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:7461810665109118417",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "5:6293424852606645974",
+          "name": "main",
+          "type": 9
+        },
+        {
+          "id": "6:4862107852843583711",
+          "name": "weatherId",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "7:5139346684294442864",
+          "name": "windDeg",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "8:6611690727633566209",
+          "name": "windSpeed",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "9:4053167339745437825",
+          "name": "storeTimestamp",
+          "type": 6,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2826436020558396174",
+      "lastPropertyId": "10:6946037999039768316",
+      "name": "FiveDayWeather",
+      "properties": [
+        {
+          "id": "1:3128415136272252512",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6715022729764331080",
+          "name": "dt",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:7456678649587724019",
+          "name": "temp",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "4:4919101823022970614",
+          "name": "minTemp",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "5:3130086861019897343",
+          "name": "maxTemp",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "6:986467571868960027",
+          "name": "weatherId",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "7:7420621174165916867",
+          "name": "timestampStart",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "8:4869586665746725070",
+          "name": "timestampEnd",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "9:3898370619919025222",
+          "name": "color",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "10:6946037999039768316",
+          "name": "colorAlpha",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:41446744004231473",
+      "lastPropertyId": "5:7642469640050689327",
+      "name": "ItemHourlyDB",
+      "properties": [
+        {
+          "id": "1:434636357135871970",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:403161175010339482",
+          "name": "fiveDayWeatherId",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "3:8407755097858932056",
+          "name": "dt",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:784562529101485740",
+          "name": "temp",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "5:7642469640050689327",
+          "name": "weatherCode",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:7074978757310961501",
+      "lastPropertyId": "5:911162716832168075",
+      "name": "MultipleDaysWeather",
+      "properties": [
+        {
+          "id": "1:3624264439002596386",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8854818201906404283",
+          "name": "dt",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:4404039181218696382",
+          "name": "weatherId",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:5615119094384848801",
+          "name": "minTemp",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "5:911162716832168075",
+          "name": "maxTemp",
+          "type": 8,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:7074978757310961501",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
